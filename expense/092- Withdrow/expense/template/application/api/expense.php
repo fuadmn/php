@@ -26,7 +26,7 @@ function register_expense($conn){
     $row = $result->fetch_assoc();
 
     if($row['Message'] == 'Deny'){
-          $data  = array("status" => false, "data" => "Insuficient Balance kkk");
+          $data  = array("status" => false, "data" => "Insuficient Balance 😊😊😎");
     }elseif($row['Message'] == 'Registered'){
          $data  = array("status" => true, "data" => "Registered Successfully");
     }

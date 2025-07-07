@@ -105,7 +105,7 @@ function loadData(){
 
             }
 
-            tr += `<td><a class="btn btn-info update_info" update_id=${res['id']}><i class="fas fa-edit"style="color: #fff"></i></a>&nbsp;&nbsp;<a class="btn btn-danger update_info " update_id=${res['id']}><i class="fas fa-trash" style="color: #fff"></i></a></td>`
+            tr += `<td><a class="btn btn-info update_info" update_id=${res['id']}><i class="fas fa-edit"style="color: #fff"></i></a>&nbsp;&nbsp;<a class="btn btn-danger delete_info " delete_id=${res['id']}><i class="fas fa-trash" style="color: #fff"></i></a></td>`
             tr += "</tr>";
 
          })
